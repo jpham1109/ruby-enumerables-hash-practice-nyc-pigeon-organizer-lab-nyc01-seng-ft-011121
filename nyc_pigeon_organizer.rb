@@ -16,13 +16,13 @@ def nyc_pigeon_organizer(data)
         end
         #binding.pry
         list[name][key].push(inner_key.to_s)
-        binding.pry
+        #binding.pry
       end
     end
   list
-  binding.pry
+ # binding.pry
   end
-  binding.pry
+  #binding.pry
   #color = data[:color].keys.map {|el| el.to_s}
   #gender = data[:gender].keys.map {|el| el.to_s}
   #lives = data[:lives].keys.map {|el| el.to_s}
