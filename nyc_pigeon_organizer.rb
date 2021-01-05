@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   list
- # binding.pry
+  binding.pry
   end
   #binding.pry
   #color = data[:color].keys.map {|el| el.to_s}
