@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
           list[name][key] = {}
         end
         binding.pry
-        list[name][key] = (inner_key.to_s)
+        list[name][key](inner_key.to_s)
         #binding.pry
       end
     end
